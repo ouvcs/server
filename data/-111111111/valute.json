@@ -1,0 +1,10 @@
+{
+    "name": "Админск",
+    "photo": "/static/images/country/admin.png",
+    "desc": "",
+    "change": 1000.0,
+    "abbreviation": "ADM",
+    "symbol": "A",
+    "add": "",
+    "check": "full"
+}

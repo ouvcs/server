@@ -1,0 +1,13 @@
+{
+    "flag": "/static/images/defaults/admin_flag.png",
+    "name": "Админския",
+    "group": "https://vk.com/vgovernments",
+    "goverment_type": "Администический Режим",
+    "goverment_form": "Унитарный",
+    "ideology": "Слава Админам",
+    "political_type": "Демократический",
+    "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "date": "66 66 6666",
+    "add": "<img src=\"https://sun6-23.userapi.com/s/v1/ig2/EoifnE2YiyB0ooHi3yd1KPSrjfWMeIFkRwKwlsPdMWNKe0je9oH0VMXKg-ikRsxp4PKYKHoibbkVGAVo3gacggcH.jpg?size=200x0&quality=96&crop=0,0,1000,1000&ava=1\">",
+    "check": "full"
+}

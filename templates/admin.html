@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/base.css">
+    <link rel="icon" href="/static/logo.png" type="image/png">
+
+    <title>Admin Panel</title>
+</head>
+<body>
+    <form action="/admin/send" method="post">
+        <h1>Admin Panel</h1>
+        <h3>Type of Action</h3>
+        <select name="type-action" id="type-action">
+            <option value="none" selected disabled hidden></option>
+            <option value="country">Country</option>
+            <option value="valute">Valute</option>
+            <option value="account">Account</option>
+            <option value="specific">Specific</option>
+        </select>
+
+        <br><h3>Action</h3>
+        <div id="select">
+            <select name="country-action" id="country-action">
+                <option value="none" selected disabled hidden>Country</option>
+                <option value="check-query">Set check to query</option>
+                <option value="check-no">Set check to no</option>
+                <option value="check-partial">Set check to partial</option>
+                <option value="check-full">Set check to full</option>
+            </select>
+
+            <select name="valute-action" id="valute-action">
+                <option value="none" selected disabled hidden>Valute</option>
+                <option value="check-query">Set check to query</option>
+                <option value="check-no">Set check to no</option>
+                <option value="check-partial">Set check to partial</option>
+                <option value="check-full">Set check to full</option>
+            </select>
+
+            <select name="account-action" id="account-action">
+                <option value="none" selected disabled hidden>Account</option>
+                <option value="mod">Moderation</option>
+                <option value="ban">Ban</option>
+                <option value="unmod">Unmoderation</option>
+                <option value="unban">Unban</option>
+                <option value="admin">Accept on admin</option>
+                <option value="unadmin">Remove from admin</option>
+            </select>
+
+            <select name="specific-action" id="specific-action">
+                <option value="none" selected disabled hidden>Specific</option>
+                <option value="country-no">Accept country and set check to no</option>
+                <option value="country-partial">Accept country and set check to partial</option>
+                <option value="country-full">Accept country and set check to full</option>
+                <option value="valute-no">Accept valute and set check to no</option>
+                <option value="valute-partial">Accept valute and set check to partial</option>
+                <option value="valute-full">Accept valute and set check to full</option>
+            </select>
+        </div>
+
+        <h3>ID of Valute, Country or Account</h3>
+        <input type="text" name="id" id="id"><br>
+        <input id="fid" placeholder="Formatted ID" disabled></input>
+
+        <h3>Admin password</h3>
+        <input type="password" name="admin" id="admin">
+
+        <br><hr><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="/static/admin.js"></script>
+    <script>document.querySelector("form").click()</script>
+</body>
+</html>

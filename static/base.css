@@ -1,0 +1,40 @@
+body {
+    --bg: #FFFFFF;
+    --cl: #000000;
+    --fg: #5181B8;
+}
+
+input, select, textarea {
+    outline: 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+}
+
+select {
+    outline: 2px solid white;
+}
+
+input:hover, select:hover, textarea:hover, input:focus, select:focus, textarea:focus {
+    border: 1px solid var(--fg);
+}
+
+#country-action, #valute-action, #account-action, #specific-action {
+    width: 250px;
+    display: none;
+}
+
+#select {
+    height: 20px;
+}
+
+#return {
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: monospace;
+}
